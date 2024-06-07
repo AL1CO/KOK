@@ -36,7 +36,7 @@ a {
   color: #ffffff90;
   transition: 1s;
   opacity: 1;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 800;
 }
 a:hover {
@@ -83,5 +83,8 @@ a:hover {
 
   li {
     margin-bottom: 25px;
+  }
+  a {
+    font-size: 12px;
   }
 }
