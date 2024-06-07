@@ -5,14 +5,15 @@
 }
 
 body {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.3137254902);
   background-color: black;
+  font-family: "Orbitron", sans-serif;
 }
 
 .con {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .nav2 {
@@ -23,7 +24,7 @@ body {
 
 .logo {
   height: 200px;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: 1s;
 }
 
@@ -39,10 +40,12 @@ a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5647058824);
   transition: 1s;
+  opacity: 1;
+  font-size: 10px;
 }
 
 a:hover {
-  color: #005dc4;
+  color: #0000ff;
 }
 
 .color {
@@ -50,11 +53,12 @@ a:hover {
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-ul {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 @media only screen and (max-width: 900px) {
